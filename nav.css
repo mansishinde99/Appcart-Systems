@@ -1,0 +1,41 @@
+.main {
+  color: #575757;
+  font-family: "Roboto", sans-serif !important;
+  margin: -0.6vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 1vw;
+}
+
+.logo img {
+  width: 6.5vw;
+  cursor: pointer;
+}
+
+.menu ul {
+  display: flex;
+  gap: 2vw;
+  margin-right: 1vw;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+  font-size: 1vw;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: #575757;
+}
+
+.menu ul li:hover {
+  border-bottom: 0.2vw solid;
+}
