@@ -1,0 +1,242 @@
+.main {
+  color: #575757;
+  font-family: "Roboto", sans-serif !important;
+  margin: -0.6vw;
+}
+
+.tag {
+  background-image: url(https://appcartsystems.com/img/footer_bg.png);
+  height: 21vh;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  color: #fff;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+  position: relative;
+  top: 5vw;
+}
+
+.abtus h2 {
+  font-size: 3vw;
+  font-weight: 550;
+  text-align: center;
+  margin-top: 8vw;
+}
+
+.abtus h2 span {
+  background: -webkit-linear-gradient(rgb(255, 129, 33), rgb(255, 7, 1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  font-weight: 550;
+}
+
+.abtus p {
+  font-size: 1.3vw;
+  text-align: center;
+  margin: 1vw 7vw;
+}
+
+.teamwork {
+  display: flex;
+  margin-top: 10vw;
+}
+
+.teamwork .banners {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5vw;
+  width: 70%;
+}
+
+.teamwork .banners .banner-card1 {
+  width: 56%;
+  margin-left: 15vw;
+  border-radius: 2vw;
+  display: flex;
+  gap: 2vw;
+  padding: 0 2vw;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.teamwork .banners .banner-card2 {
+  width: 56%;
+  margin-left: 6vw;
+  border-radius: 2vw;
+  display: flex;
+  gap: 2vw;
+  padding: 0 2vw;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.teamwork .banners .banner-card1 img {
+  width: 4vw;
+  height: 7vh;
+  padding: 2vw 0;
+}
+
+.teamwork .banners .banner-card2 img {
+  width: 4vw;
+  height: 7vh;
+  padding: 2vw 0;
+}
+
+.description .text {
+  font-weight: 600;
+  font-size: 1.3vw;
+}
+
+.description .sub-text {
+  letter-spacing: 0.03vw;
+  word-spacing: 0.2vw;
+  line-height: 1.5vw;
+  font-size: 1vw;
+  margin-top: -1vw !important;
+  padding-top: 0.5vw;
+}
+
+.teamwork .text-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.teamwork .text-side h3 {
+  font-size: 2.4vw;
+  width: 25vw;
+  color: black;
+}
+
+.teamwork .text-side p {
+  width: 25vw;
+  font-size: 1.3vw;
+  color: black;
+  line-height: 1.7vw;
+}
+
+.founder {
+  display: flex;
+  margin-top: 8vw;
+  height: 40vw;
+  background-image: linear-gradient(
+    to right,
+    rgba(170, 226, 255, 0.12) 0%,
+    rgba(255, 147, 101, 0.12) 26%,
+    rgba(255, 75, 144, 0.12) 57%,
+    rgba(175, 102, 249, 0.12) 100%
+  );
+}
+
+.founder .img-side {
+  width: 50%;
+}
+
+.founder .img-side .bgc-founder {
+  background-image: url(https://appcartsystems.com/img/bio-profile-bg.png);
+  width: 29.6vw;
+  height: 59vh;
+  position: relative;
+  top: 7vw;
+  left: 10vw;
+}
+
+.founder .img-side img {
+  position: relative;
+  top: -30.5vw;
+  left: 5vw;
+  padding: 7vw;
+  background-color: #fff;
+  border-radius: 15vw;
+  opacity: 0.5;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.founder .text-side {
+  width: 50%;
+}
+
+.founder .text-side .text {
+  color: #ff0000;
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin: 1vw 0;
+}
+
+.founder .text-side .sub-text {
+  font-size: 1.2vw;
+  width: 45vw;
+  text-align: justify;
+  font-size: 1.5vw;
+  font-weight: 600;
+  margin: 0 0 2.5vw;
+}
+
+.founder .text-side .desc {
+  font-size: 1.2vw;
+  width: 45vw;
+  text-align: justify;
+  line-height: 2vw;
+  word-spacing: 0.2vw;
+  gap: 2vw;
+}
+
+.team {
+  text-align: center;
+  margin: 0 15vw;
+}
+
+.team .title {
+  font-size: 3vw;
+}
+
+.team .title span {
+  background: -webkit-linear-gradient(rgb(255, 129, 33), rgb(255, 7, 1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  font-weight: 550;
+}
+
+.team .sub-title {
+  color: #9d9d9d;
+  font-size: 1.4vw;
+  font-weight: 600;
+}
+
+.team .management {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vw 11vw;
+}
+
+.team .management .profile {
+}
+
+.team .management .profile .people {
+}
+
+.team .management .profile .name {
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.team .management .profile .designation {
+  color: #ff0000;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.team .senior {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5vw 3vw;
+}
+
+.team .senior .profile .designation {
+  color: #ff0000;
+  font-size: 1vw;
+  font-weight: 600;
+}

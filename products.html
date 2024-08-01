@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Appcart Systems</title>
+    <link rel="stylesheet" href="/styles/products.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="nav-placeholder"></div>
+
+      <div class="tag">
+        <h2>Explore Your Business with Us</h2>
+      </div>
+
+      <div class="products">
+        <div class="container">
+            <img src="https://appcartsystems.com/img/logo_1.png" alt="">
+            <h2 class="title">Asset Management</h2>
+            <p class="desc">A unique software system/enterprise app created by Appcart systems to streamline &amp; enhance various aspects of assets (movable &amp; fixed) and crew management. Easy work deployment, work assessment, work reports, daily project reports ( DPR ), maintenance of the machines, crew management all can be done with just a click.</p>
+            <a  href="">VIEW MORE</a>
+        </div>
+
+        <div class="container">
+            <img src="https://appcartsystems.com/img/logo_2.png" alt="">
+            <h2 class="title">Intelligent Building Monitoring</h2>
+            <p class="desc">Intelligent Building Monitoring iBuilder (Intelligent Building Monitoring), a construction work management system is a boon for the construction industry. This software is designed specially to assist in the various aspects of the construction process from planning to scheduling to budgeting and collaboration. </p>
+            <a  href="">VIEW MORE</a>
+        </div>
+
+        <div class="container">
+            <img src="	https://appcartsystems.com/img/product_logo_5.png" alt="">
+            <h2 class="title">Intelligent Road Monitoring</h2>
+            <p class="desc">A groundbreaking product, iRoad is an advanced software solution designed to assist private and Government organizations in effectively planning and monitoring the progress of infra-development projects. Whether it’s roads, bridges, flyovers or irrigation projects, iRoad offers a systematic and highly technical approach to project management.</p>
+            <a  href="">VIEW MORE</a>
+        </div>
+
+        <div class="container">
+            <img src="	https://appcartsystems.com/img/macsys-logo.png" alt="">
+            <h2 class="title">Machine & Crew Allocation System</h2>
+            <p class="desc">Macsys is a software specially designed for vehicles( machines) and crew. This software streamlines and enhances various aspects of machines and crew management. It helps businesses manage their vehicles (machines) and workforce efficiently by optimising operations and resource utilization, workforce scheduling and planning and enhancing productivity. </p>
+            <a  href="">VIEW MORE</a>
+        </div>
+      </div>
+
+      <div id="footer-placeholder"></div>
+    </div>
+
+    <script>
+      function loadContent(id, url) {
+        fetch(url)
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(id).innerHTML = data;
+          });
+      }
+
+      window.onload = function () {
+        loadContent("nav-placeholder", "nav.html");
+        loadContent("footer-placeholder", "footer.html");
+      };
+    </script>
+  </body>
+</html>

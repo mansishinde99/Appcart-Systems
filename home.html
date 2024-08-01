@@ -10,18 +10,6 @@
     <div class="main">
       <div id="nav-placeholder"></div>
 
-      <script>
-        function loadNav() {
-          fetch("nav.html")
-            .then((response) => response.text())
-            .then((data) => {
-              document.getElementById("nav-placeholder").innerHTML = data;
-            });
-        }
-
-        window.onload = loadNav;
-      </script>
-
       <div class="claim">
         <div class="text-side">
           <h2><span>W</span>e have helped product claim millions</h2>
@@ -200,8 +188,22 @@
           alt=""
         />
       </div>
-      
-      <div class="footer">Copyright © 2024 appcartsystems.com</div>
-    </div>
+
+      <div id="footer-placeholder"></div>
+
+      <script>
+        function loadContent(id, url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(id).innerHTML = data;
+                });
+        }
+
+        window.onload = function() {
+            loadContent("nav-placeholder", "nav.html");
+            loadContent("footer-placeholder", "footer.html");
+        };
+    </script>
   </body>
 </html>
