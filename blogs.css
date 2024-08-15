@@ -1,0 +1,67 @@
+.main {
+  color: #575757;
+  font-family: "Roboto", sans-serif !important;
+  margin: -0.6vw;
+}
+
+.tag {
+  background-image: url(https://appcartsystems.com/img/footer_bg.png);
+  height: 21vh;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  color: #fff;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+  position: relative;
+  top: 5vw;
+}
+
+.blogs {
+  margin-top: 8vw;
+  text-align: center;
+}
+
+.blogs .imgTextPart {
+    display: flex;
+    gap: 5vw;
+    margin: 5vw 9vw;
+}
+
+.blogs .imgTextPart .text-part {
+    text-align: justify;
+}
+
+.blogs .imgTextPart .text-part .title {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #FF0000;
+    margin: 0;
+    letter-spacing: .04vw;
+}
+
+.blogs .imgTextPart .text-part .sub-title {
+    margin: 0;
+    font-size: 1.3vw;
+    font-weight: 550;
+    color: black;
+    letter-spacing: .09vw;
+    margin: 0;
+}
+
+.blogs .imgTextPart .text-part .desc {
+    letter-spacing: .04vw;
+    line-height: 1.6vw;
+    margin-bottom: 2vw;
+    color: #4C4C4C;
+}
+
+.blogs .imgTextPart .text-part a{
+    text-decoration: none;
+    padding: 1vw;
+    color: #FF0000;
+    border:  .1vw solid #FF0000;
+    border-radius: 1vw;
+    font-size: 1vw;
+    font-weight: 500;
+}

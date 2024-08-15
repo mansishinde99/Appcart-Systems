@@ -45,19 +45,6 @@
       <div id="footer-placeholder"></div>
     </div>
 
-    <script>
-      function loadContent(id, url) {
-        fetch(url)
-          .then((response) => response.text())
-          .then((data) => {
-            document.getElementById(id).innerHTML = data;
-          });
-      }
-
-      window.onload = function () {
-        loadContent("nav-placeholder", "nav.html");
-        loadContent("footer-placeholder", "footer.html");
-      };
-    </script>
+    <script src="/pages/navScript.js"></script>
   </body>
 </html>

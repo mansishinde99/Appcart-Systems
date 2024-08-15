@@ -1,0 +1,261 @@
+.main {
+  color: #575757;
+  font-family: "Roboto", sans-serif !important;
+  margin: -0.6vw;
+}
+
+.tag {
+  background-image: url(https://appcartsystems.com/img/footer_bg.png);
+  height: 21vh;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  color: #fff;
+  font-size: 1.5vw;
+  padding-left: 2vw;
+  position: relative;
+  top: 5vw;
+}
+
+.services {
+  margin-top: 8vw;
+  text-align: center;
+}
+
+.buttons a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid transparent;
+}
+
+.buttons a.active {
+  color: white;
+  color: #ff0000;
+  border-color: #ff0000;
+  border-radius: 2vw;
+}
+
+.services .img-text {
+  display: flex;
+  margin: 5vw;
+  gap: 6vw;
+}
+
+.services .img-text .img-side {
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.services .img-text .img-side .bgc-img1 {
+  background-image: url("https://appcartsystems.com/img/product-development-bg.jpg");
+  width: 29.6vw;
+  height: 62vh;
+  margin-left: 10vw;
+}
+
+.services .img-text .img-side .service-img {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 17vw;
+  width: 40%;
+  align-items: center;
+  padding: 6vw;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -32vw;
+  left: 2vw;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 0.75rem lightgray);
+}
+
+.services .img-text .text-side {
+  text-align: justify;
+  width: 42%;
+}
+
+.services .img-text .text-side .title {
+  width: 27vw;
+  letter-spacing: 0.1vw;
+  color: #ff0000;
+  font-size: 2vw;
+  font-weight: 550;
+  line-height: 3vw;
+}
+
+.services .img-text .text-side p {
+  font-size: 1.2vw;
+  line-height: 2vw;
+}
+
+.services .text-img {
+  display: flex;
+  margin: 5vw;
+  gap: 6vw;
+  height: 40vw;
+}
+
+.services .text-img .img-side {
+  text-align: center;
+  margin-top: 5vw;
+}
+
+.services .text-img .img-side .bgc-img2 {
+  background-image: url("https://appcartsystems.com/img/agile-development-bg.jpg");
+  width: 29.6vw;
+  height: 62vh;
+  margin-left: 10vw;
+}
+
+.services .text-img .img-side .service-img {
+  background-color: #fff;
+  border-radius: 65%;
+  height: 17vw;
+  width: 45%;
+  align-items: center;
+  padding: 6vw;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -32vw;
+  left: 2vw;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 0.75rem lightgray);
+}
+
+.services .text-img .text-side {
+  text-align: justify;
+  width: 42%;
+}
+
+.services .text-img .text-side .title {
+  width: 27vw;
+  letter-spacing: 0.1vw;
+  color: #ff0000;
+  font-size: 2vw;
+  font-weight: 550;
+  line-height: 3vw;
+}
+
+.services .text-img .text-side p {
+  font-size: 1.2vw;
+  line-height: 2vw;
+}
+
+.services .img-text .img-side .bgc-img3 {
+  background-image: url("https://appcartsystems.com/img/mobile-development-bg.jpg");
+  width: 29.6vw;
+  height: 62vh;
+  margin-left: 10vw;
+}
+
+.services .text-img .img-side .bgc-img4 {
+  background-image: url("https://appcartsystems.com/img/mobile-ui-ux-bg.jpg");
+  width: 29.6vw;
+  height: 62vh;
+  margin-left: 10vw;
+}
+
+.process {
+}
+
+.process h2 {
+  font-size: 2.8vw;
+  font-weight: 600;
+  letter-spacing: 0.1vw;
+}
+
+.process h2 span {
+  background: -webkit-linear-gradient(rgb(255, 129, 33), rgb(255, 7, 1));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4vw;
+  font-weight: 550;
+}
+
+.process .img-text {
+  display: flex;
+  margin: 5vw 10vw 0;
+  gap: 14vw;
+}
+
+.process .img-text img {
+  width: 35;
+}
+
+.process .img-text .process-details {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.process .img-text .process-details .num {
+  border-radius: 50%;
+  padding: 1.7vw;
+  height: 3vw;
+  color: #fff;
+  background-color: #d61f07;
+  font-size: 2.5vw;
+  font-weight: 550;
+  box-shadow: 0 0 25px rgba(172, 24, 12, 0.75);
+}
+
+.process .img-text .process-details .texts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.process .img-text .process-details .texts .title {
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.process .img-text .process-details .texts .desc {
+}
+
+.process .text-img {
+  display: flex;
+  margin: 0 10vw;
+  gap: 14vw;
+}
+
+.process .text-img img {
+  width: 35;
+}
+
+.process .text-img .process-details {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.process .text-img .process-details .num {
+  border-radius: 50%;
+  padding: 1.7vw;
+  height: 3vw;
+  color: #fff;
+  background-color: #d61f07;
+  font-size: 2.5vw;
+  font-weight: 550;
+  box-shadow: 0 0 25px rgba(172, 24, 12, 0.75);
+}
+
+.process .text-img .process-details .texts {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.process .text-img .process-details .texts .title {
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.process .text-img .process-details .texts .desc {
+  width: 90%;
+}
